@@ -1,27 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.navbar{
+  background:linear-gradient(180deg, #000000 -14.67%, rgba(0,0,0,0.04) 81.82%);
+  box-shadow:0px 4px 40px rgba(0,0,0,0.05);
+}
+.banner{
+  background-image:url('/../assets/banner1.png');
+  background-repeat:none;
+  background-size:cover;
+}
+.banner2{
+  background-image:url('/../assets/banner2.png');
+  background-size:cover;
+  background-repeat:none;
+}
+.mbbs{
+  box-shadow:0px 4px 40px rgba(0,0,0,0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.slick-track{
+  margin-top:100px;
+  height:400px;
+  display:flex !important;
+  gap:0px;
+}
+@media (min-width:768px){
+  .slick-track{
+    display:flex !important;
+    gap:30px !important;
   }
 }
+.slick-prev{
+  display:none !important;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.slick-next {
+  display:none !important;
+}
+.slick-dots li.slick-active button:before{
+  color:#DC2A28 !important;
 }
