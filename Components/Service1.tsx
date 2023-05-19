@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import Nav1 from "./Nav1";
-function Navbar() {
+const Service1 = () => {
   return (
     <>
-      <div className="banner relative h-[747px]">
+      <div className="cbanner relative">
         <div className=" md:hidden navbar">
           <Nav1 />
         </div>
@@ -12,13 +12,13 @@ function Navbar() {
           <div className="container mx-auto flex flex-row justify-between">
             <div className="flex flex-row ">
               <Link
-                href="/"
+                href=""
                 className="font-Poppins font-normal text-[14px] leading-[21px] tracking-[1%] text-white pt-[36px] pb-[37px]"
               >
                 HOME
               </Link>
               <Link
-                href="/about"
+                href=""
                 className="font-Poppins flex flex-row font-normal text-[14px] leading-[21px] tracking-[1%] text-white pt-[36px] pb-[37px] pl-[71px]"
               >
                 ABOUT{" "}
@@ -28,7 +28,7 @@ function Navbar() {
                 />
               </Link>
               <Link
-                href="/service"
+                href=""
                 className="font-Poppins flex flex-row font-normal text-[14px] leading-[21px] tracking-[1%] text-white pt-[36px] pb-[37px] pl-[51.5px]"
               >
                 SERVICES{" "}
@@ -58,7 +58,7 @@ function Navbar() {
                 MEDIA
               </Link>
               <Link
-                href="/contactus"
+                href=""
                 className="font-Poppins font-normal text-[14px] leading-[21px] tracking-[1%] text-white pt-[36px] pl-[64px]"
               >
                 CONTACT
@@ -66,9 +66,12 @@ function Navbar() {
             </div>
           </div>
         </div>
+        <h2 className="font-Poppins font-bold text-[48px] leading-[60.24px] text-[white] absolute top-[50%] left-[50%] transform translate-x-[-50%]">
+          Services
+        </h2>
       </div>
     </>
   );
-}
+};
 
-export default Navbar;
+export default Service1;

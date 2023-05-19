@@ -31,13 +31,13 @@ const Draw = () => {
       >
         <div className="flex flex-col items-center">
           <Link
-            href=""
+            href="/"
             className="font-Poppins font-normal text-[14px] leading-[21px] tracking-[1%] text-black pt-[36px]"
           >
             HOME
           </Link>
           <Link
-            href=""
+            href="/about"
             className="font-Poppins flex flex-row font-normal text-[14px] leading-[21px] tracking-[1%] text-black pt-[36px]  "
           >
             ABOUT{" "}
@@ -47,7 +47,7 @@ const Draw = () => {
             />
           </Link>
           <Link
-            href=""
+            href="/service"
             className="font-Poppins flex flex-row font-normal text-[14px] leading-[21px] tracking-[1%] text-black pt-[36px] "
           >
             SERVICES{" "}
@@ -69,7 +69,7 @@ const Draw = () => {
             MEDIA
           </Link>
           <Link
-            href=""
+            href="/contactus"
             className="font-Poppins flex flex-row font-normal text-[14px] leading-[21px] tracking-[1%] text-black pt-[36px]  "
           >
             CONTACT

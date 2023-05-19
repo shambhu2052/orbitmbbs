@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import Nav1 from "./Nav1";
-function Navbar() {
+const Contact = () => {
   return (
     <>
-      <div className="banner relative h-[747px]">
+      <div className="cbanner relative">
         <div className=" md:hidden navbar">
           <Nav1 />
         </div>
@@ -66,9 +66,12 @@ function Navbar() {
             </div>
           </div>
         </div>
+        <h2 className="font-Poppins font-bold text-[32px] md:text-[48px] leading-[60.24px] text-[white] absolute top-[50%] left-[50%] transform translate-x-[-50%]">
+          Contact Us
+        </h2>
       </div>
     </>
   );
-}
+};
 
-export default Navbar;
+export default Contact;

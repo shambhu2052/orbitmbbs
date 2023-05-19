@@ -20,6 +20,9 @@ module.exports = {
        'Poppins':'Poppins, sans-serif',
        'Palatino':'Palanquin, sans-serif',
        'Arimo':'Arimo, sans-serif',
+       'Mulish':'Mulish, sans-serif',
+       'IBM':'IBM Plex Sans,sans-serif',
+       'Roboto':'Roboto, sans-serif',
     }
     },
   },
