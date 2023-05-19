@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,900;0,1000;1,800;1,900;1,1000&family=Palanquin:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.navbar{
+  background:linear-gradient(180deg, #000000 -14.67%, rgba(0,0,0,0.04) 81.82%);
+  box-shadow:0px 4px 40px rgba(0,0,0,0.05);
+}
+.banner{
+  background-image:url('/../assets/banner1.png');
+  background-repeat:none;
+  background-size:cover;
+}
+.banner2{
+  background-image:url('/../assets/banner2.png');
+  background-size:cover;
+  background-repeat:none;
+}
+.mbbs{
+  box-shadow:0px 4px 40px rgba(0,0,0,0.1);
+}
+
+.slick-track{
+  margin-top:100px;
+  height:400px;
+  display:flex !important;
+  gap:0px;
+}
+@media (min-width:768px){
+  .slick-track{
+    display:flex !important;
+    gap:30px !important;
+  }
+}
+.slick-prev{
+  display:none !important;
+}
+
+.slick-next {
+  display:none !important;
+}
+.slick-dots li.slick-active button:before{
+  color:#DC2A28 !important;
+}
+.footer{
+  background-image:url('/../assets/fbanner.png');
+  background-size:cover;
+  background-repeat: none;
+}
+.cbanner{
+  background-image:url('/../assets/contact.png');
+  background-size:cover;
+  background-repeat:none;
+  height:298px;
+}
+.mapbanner{
+  background-image:url('/../assets/map.png');
+  background-repeat:none;
+  background-size:cover;
+}
+.service{
+  box-shadow:0px 2px 30px rgba(0,0,0,0.05);                            
+}
+.pslide .slick-dots{
+  display:none !important;
+}
+.pslide .slick-list{
+  height:198px !important;
+}
+.pslide .slick-slider{
+  height:198 !important;
+}
+.stu{
+  background-image:url('/../assets/studentbanner.png');
+  background-repeat:none;
+  background-size:cover;
+}
+.term{
+  box-shadow:0px 4px 20px rgba(0,0,0,0.05);
+}
+.sts.slick-slider{
+  width:320px !important;
+}
+@media(min-width:640px){
+  .sts.slick-slider{
+      width:428px !important;
+  }
+}
+
+@media(min-width:768px){
+  .sts.slick-slider {
+      width:397px !important;
+  }
+}  
+
+
+@media(min-width:1024px){
+  .sts.slick-slider{
+      width:598px !important;
+  } 
+}
+@media(min-width:1280px){
+  .sts.slick-slider{
+      width:915px !important;
+  }
+}
+
