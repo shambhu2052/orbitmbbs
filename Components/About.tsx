@@ -49,7 +49,7 @@ const About = () => {
                 href=""
                 className="font-Poppins font-normal text-[14px] leading-[21px] tracking-[1%] text-white pt-[36px]"
               >
-                IELTS REGISTRATION
+                IELTS REGISTRATIONS
               </Link>
               <Link
                 href=""
