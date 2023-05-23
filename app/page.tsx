@@ -8,7 +8,7 @@ import Testimonial from "@/Components/Testimonial";
 import News from "@/Components/News";
 import Fotter from "@/Components/Fotter";
 import Fotter2 from "@/Components/Fotter2";
- 
+
 export default function Home() {
   return (
     <>
