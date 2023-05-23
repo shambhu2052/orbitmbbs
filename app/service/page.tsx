@@ -1,7 +1,7 @@
-import Choose from "@/Components/Choose";
-import Fotter from "@/Components/Fotter";
-import Service1 from "@/Components/Service1";
-import Service2 from "@/Components/Service2";
+import Choose from "@/components/Choose";
+import Fotter from "@/components/Fotter";
+import Service1 from "@/components/Service1";
+import Service2 from "@/components/Service2";
 import React from "react";
 
 const page = () => {

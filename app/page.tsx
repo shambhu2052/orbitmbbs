@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Navbar from "@/Components/Navbar";
-import Welcome from "@/Components/Welcome";
-import Exclusive from "@/Components/Exclusive";
-import Course from "@/Components/Course";
-import Scholarship from "@/Components/Scholarship";
-import Testimonial from "@/Components/Testimonial";
-import News from "@/Components/News";
-import Fotter from "@/Components/Fotter";
-import Fotter2 from "@/Components/Fotter2";
+import Navbar from "@/components/Navbar";
+import Welcome from "@/components/Welcome";
+import Exclusive from "@/components/Exclusive";
+import Course from "@/components/Course";
+import Scholarship from "@/components/Scholarship";
+import Testimonial from "@/components/Testimonial";
+import News from "@/components/News";
+import Fotter from "@/components/Fotter";
+import Fotter2 from "@/components/Fotter2";
 
 export default function Home() {
   return (

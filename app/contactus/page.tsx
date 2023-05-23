@@ -1,7 +1,7 @@
-import Contact from "@/Components/Contact";
-import Form from "@/Components/Form";
-import Fotter from "@/Components/Fotter";
-import Location from "@/Components/Location";
+import Contact from "@/components/Contact";
+import Form from "@/components/Form";
+import Fotter from "@/components/Fotter";
+import Location from "@/components/Location";
 import React from "react";
 
 const page = () => {
